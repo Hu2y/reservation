@@ -1,7 +1,14 @@
 import React from 'react';
+import Routes from '@/routes/index';
+import GlobalStyle from '@/styles/GlobalStyle';
 
 const App = () => {
-  return <div>핼로</div>;
+  return (
+    <>
+      <GlobalStyle />
+      <Routes />
+    </>
+  )
 };
 
 export default App;
